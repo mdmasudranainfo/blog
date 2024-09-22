@@ -67,14 +67,14 @@ const Page = () => {
                   />
                 </td>
                 <td>{post?.title}</td>
-                <td className="flex gap-2">
+                <td className="">
                   <Link className="" href={`/dashboard/post/${post?._id}`}>
                     <button className="btn btn-success btn-sm">Edit</button>
                   </Link>
 
                   <button
                     onClick={() => deletePost(post?._id)}
-                    className="btn btn-error btn-sm"
+                    className="btn btn-error btn-sm ms-2"
                   >
                     Delete
                   </button>

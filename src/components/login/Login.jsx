@@ -32,7 +32,6 @@ const Login = () => {
           } else {
             window.location.replace("/");
           }
-          console.log(data?.user?.role);
         } else {
           toast.error(data.message);
         }

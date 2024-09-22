@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .slick-prev,
+.slick-next {
+  color: red !important;
+  background: red !important;
+} */
+
+.slick-prev {
+  left: 15px !important;
+  z-index: 2 !important;
+}
+
+.slick-next {
+  right: 25px !important;
+}

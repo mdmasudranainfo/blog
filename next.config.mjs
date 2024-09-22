@@ -4,7 +4,7 @@ const nextConfig = {
     BASE_URL: "http://localhost:3000",
   },
   images: {
-    domains: ["i.ibb.co"],
+    domains: ["i.ibb.co"], // Add your allowed domains here
   },
 };
 
